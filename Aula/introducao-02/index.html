@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Introdução - 02</title>
+</head>
+
+<body>
+  <div class="login">
+    <h1>Venda de Cerveja</h1>
+    <form>
+      <div>
+        É maior de idade?
+        <label>
+          Sim
+          <input type="radio" name="eh-maior" checked>
+          <!-- Se tiver o mesmo nome o navegador não deixa selecionar os 2 ao mesmo tempo
+          checked -> Serve para o "check" já começar marcado.
+          -->
+        </label>
+        <label>
+          Não
+          <input type="radio" name="eh-maior">
+        </label>
+      </div>
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+</body>
+
+</html>

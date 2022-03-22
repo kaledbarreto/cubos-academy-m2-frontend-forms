@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
